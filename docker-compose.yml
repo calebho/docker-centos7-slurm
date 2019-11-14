@@ -2,6 +2,7 @@ version: '3'
 
 services:
   slurm:
+    container_name: slurmcontainer
     build: .
     hostname: ernie
     stdin_open: true
